@@ -3,8 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Gabriels Website</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="icon" type="image/x-icon" href="Website Icon.ico">
     
   </head>
   <style>
@@ -12,22 +14,18 @@
       position: relative; 
     }
     #mainpage {margin-top:200px;height:800px;color: black; }
-    #aboutme {padding:50px; height:900px;color: #fff; background-color: green;}
+    #aboutme {padding:50px; height:900px;color: #fff;animation:mymove 5s infinite}
     #CV {padding:50px; height:900px;color: #fff; background-color: red;}
     #Projects {padding:50px; height:900px;color: #fff; background-color: magenta;}
+  @keyframes mymove{50%{background-color:blue;}}
     
     
   </style>
 <html>
-  
-<!-- The scrollable area -->
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
   <!-- The navbar - The <a> elements are used to jump to a section in the scrollable area -->
   <nav class="navbar navbar-fixed-top">
-    <ul class="nav navbar-nav">
-      <li><a href="#mainpage">Section 1</a></li>
-      <li><a href="#aboutme">Section 1</a></li>
+    
       
   </nav>
 
