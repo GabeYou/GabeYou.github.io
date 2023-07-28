@@ -1,8 +1,14 @@
 body {
-    background-color: lightblue;
+    background-color:  rgba(92, 210, 246, 0.3);
   }
-  
-  p {
-    color: navy;
-    margin-left: 20px;
-  }
+h1 {font-family:    monospace,Arial;
+}
+.jumbotron{
+  padding: 100;
+}
+p {
+  font-family:    monospace,Arial;
+  color: navy;
+  margin-left: 20px;
+}
+
